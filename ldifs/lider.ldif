@@ -2,7 +2,7 @@ dn: ou=Ahenkler,dc=pardus,dc=lab
 objectclass: organizationalUnit
 objectclass: top
 ou: Ahenkler
-description: Ahenkler 
+description: pardusDeviceGroup
 
 dn: ou=Kullanıcılar,dc=pardus,dc=lab
 objectclass: organizationalUnit

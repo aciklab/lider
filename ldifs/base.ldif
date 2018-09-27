@@ -1,0 +1,11 @@
+dn: dc=pardus,dc=lab
+objectClass: dcObject
+objectClass: organization
+dc: pardus
+o: pardus
+description: Ana Dizin
+
+dn: cn=admin,dc=pardus,dc=lab
+objectClass: organizationalRole
+cn: root 
+description: Ana Yönetici

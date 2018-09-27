@@ -1,0 +1,30 @@
+dn: ou=Ahenkler,dc=pardus,dc=lab
+objectclass: organizationalUnit
+objectclass: top
+ou: Ahenkler
+description: Ahenkler 
+
+dn: ou=Kullanıcılar,dc=pardus,dc=lab
+objectclass: organizationalUnit
+objectclass: top
+ou:  Kullanıcılar
+description: Kullanıcılar 
+
+dn: cn=lider_console, dc=pardus,dc=lab
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: pardusLider
+objectClass: pardusAccount
+cn: lider_console
+sn: lider_console
+uid: lider_console
+userPassword: Passw0rd008
+liderPrivilege: [TASK:dc=pardus,dc=lab:ALL]
+liderPrivilege: [REPORT:ALL]
+
+dn: cn=liderAhenkConfig,dc=pardus,dc=lab
+objectClass: pardusLiderAhenkConfig
+cn: liderAhenkConfig
+liderServiceAddress: http://lider.pardus.lab:8181
